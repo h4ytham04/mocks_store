@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url("fonts/BebasNeue-Regular.ttf") format('truetype');
+    /* You might want to include additional format declarations for different browsers */
+}
+
+@font-face {
+    font-family: 'scribbled';
+    src: url("fonts/scribbled.ttf") format('truetype');
+    /* You might want to include additional format declarations for different browsers */
+}
+
+header {
+    font-family: 'BebasNeue-Regular', sans-serif;
+    font-size: x-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 239, 197);
+    padding-left: 5px;
+}
+
+.icons a {
+    text-decoration: none; /* Remove underline from the links inside the icons class */
+}
+.icons{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+
+#wya {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+table {
+    font-family: 'BebasNeue-Regular', sans-serif;
+    font-size: x-large;
+    background-color: darksalmon;
+    border: 2px solid black;
+    border-collapse: separate;
+    margin: 0 auto;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'scribbled';
+    font-size: xxx-large;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.sock-section {
+    display: flex;
+    align-items: center;
+    font-weight: 475;
+    font-size: 100px;
+    font-family: 'scribbled';
+}
+
+#SockIMG {
+    margin-right: 100px;
+}
+
+#TylerSock {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#tyler_caption {
+    font-size: xx-large;
+    font-family: "BebasNeue-Regular";
+    font-weight: 40;
+    text-align: center;
+}
+
+#TopLogo {
+    display: block;
+    margin: 0 auto;
+}
+
+.fa-brands,
+.fa-solid {
+    text-decoration: none; /* Remove underline from font awesome icons */
+}
+
+@keyframes rainbowAnimation {
+    0% { color: red; }
+    16.666% { color: orange; }
+    33.333% { color: yellow; }
+    50% { color: green; }
+    66.666% { color: blue; }
+    83.333% { color: indigo; }
+    100% { color: violet; }
+}
+
+.row{
+    padding-top: 200px;
+    text-align: center;
+}
+
+#mocks4vogue {
+    animation: rainbowAnimation 4s linear infinite;
+}
